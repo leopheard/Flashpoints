@@ -24,7 +24,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://kpfa.org/wp-content/themes/kpfa-v2/dist/images/itunesbanner.jpg",
+                'thumbnail': "https://is2-ssl.mzstatic.com/image/thumb/Podcasts123/v4/69/8e/5a/698e5a63-aac1-0161-fcd8-b81e2a5fff25/mza_5594927251231214019.jpg/600x600bb.jpg",
         }
         subjects.append(item)
     return subjects
