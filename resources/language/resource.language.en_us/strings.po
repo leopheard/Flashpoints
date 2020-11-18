@@ -14,16 +14,12 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgctxt "#30000"
-msgid "All episodes"
+msgctxt "#30002"
+msgid "Greg Palast [Soundcloud]"
 msgstr ""
 
 msgctxt "#30001"
 msgid "Latest episodes"
-msgstr ""
-
-msgctxt "#30002"
-msgid ""
 msgstr ""
 
 msgctxt "#30003"

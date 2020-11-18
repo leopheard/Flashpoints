@@ -7,10 +7,15 @@ def get_soup1(url1):
     soup1 = BeautifulSoup(page.text, 'html.parser')
     print("type: ", type(soup1))
     return soup1
+def get_soup2(url2):
+    page = requests.get(url2)
+    soup2 = BeautifulSoup(page.text, 'html.parser')
+    print("type: ", type(soup2))
+    return soup2
 
 def get_playable_podcast1(soup1):
     subjects = []
-    for content in soup1.find_all('item', limit=12):
+    for content in soup1.find_all('item'):
         try:
             link = content.find('enclosure')
             link = link.get('url')
@@ -39,9 +44,9 @@ def compile_playable_podcast1(playable_podcast1):
     })
     return items
 
-def get_playable_podcast(soup1):
+def get_playable_podcast2(soup2):
     subjects = []
-    for content in soup1.find_all('item'):
+    for content in soup2.find_all('item'):
         try:
             link = content.find('enclosure')
             link = link.get('url')
@@ -55,13 +60,13 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://kpfa.org/wp-content/themes/kpfa-v2/dist/images/itunesbanner.jpg",
+                'thumbnail': "https://i1.sndcdn.com/avatars-000496287465-vei9oo-original.jpg",
         }
         subjects.append(item)
     return subjects
-def compile_playable_podcast(playable_podcast):
+def compile_playable_podcast2(playable_podcast2):
     items = []
-    for podcast in playable_podcast:
+    for podcast in playable_podcast2:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
