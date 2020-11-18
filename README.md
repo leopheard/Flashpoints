@@ -1,4 +1,4 @@
-<a href="kodi.tv">KODI<a> / XBMC / Firestick audio addon for the <a href="https://kpfa.org/program/flashpoints/">Flashpoints</a> podcast.<br>
+<a href="kodi.tv">KODI<a> / XBMC / OSMC / Firestick audio addon for the <a href="https://kpfa.org/program/flashpoints/">Flashpoints</a> podcast hosted by Greg Palast on KPFA.<br>
 
 <img src="https://kpfa.org/wp-content/themes/kpfa-v2/dist/images/itunesbanner.jpg"><br>
 
