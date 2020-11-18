@@ -19,7 +19,7 @@ msgid "Greg Palast [Soundcloud]"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "Flashpoints"
 msgstr ""
 
 msgctxt "#30003"

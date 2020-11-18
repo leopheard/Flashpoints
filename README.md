@@ -2,7 +2,7 @@
 
 <img src="https://kpfa.org/wp-content/themes/kpfa-v2/dist/images/itunesbanner.jpg"><br>
 
-An award winning front-line investigative news magazine focusing on human, civil and workers rights, issues of war and peace, Global Warming, racism and poverty, and other issues. Hosted by <a href="http://dennisjbernstein.com/">Dennis J. Bernstein</a> and broadcast on Pacifica / KPFA.<br>
+An award winning front-line investigative news magazine focusing on human, civil and workers rights, issues of war and peace, Global Warming, racism and poverty, and other issues. Hosted by <a href="http://dennisjbernstein.com/">Dennis J. Bernstein</a> and broadcast on Pacifica / <a href="https://kpfa.org/program/flashpoints/">KPFA</a>.<br>
 
 - <a href="https://kpfa.org/program/flashpoints/">Flashpoints - KPFA site</a>
 - <a href="https://www.gregpalast.com">GregPalast.com</a>
